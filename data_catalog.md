@@ -1,7 +1,9 @@
 ## Dataset Overview
-The dataset represents a large-scale fictional fashion retail company operating across multiple countries and regions. It provides comprehensive transactional data capturing end-to-end retail operations, including customer orders, product sales, store performance, and multi-currency transactions.
+The dataset represents a large-scale fictional fashion retail company operating across multiple countries and regions. It provides comprehensive transactional data capturing end-to-end retail operations, including customer orders, product sales, store performance, and multi-currency transactions.   
 **Data Source** [here.](https://www.kaggle.com/datasets/ricgomes/global-fashion-retail-stores-dataset) 
+
 <br>
+
 <img src="docs/philea_ERD.svg" width="700" alt="Vertical bar chart showing financial loss from shrinkage">
 
 **Dataset Summary:**
