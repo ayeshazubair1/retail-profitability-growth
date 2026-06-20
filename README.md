@@ -18,7 +18,7 @@ Philea generated **\$283M in Net Revenue** and **$161M in Gross Profit**, achiev
 While overall profitability remains strong, the analysis identified significant margin pressure from discounting and production costs. **Discount activity alone reduced revenue by $78M**, with margin erosion concentrated in specific product categories and subcategories.
 
 Growth analysis highlighted **Children's as the fastest-growing category** and identified **$3M in profit improvement opportunity** across underperforming stores. The largest store-level profit improvement opportunities is concentrated in the United Kingdom, Germany, and France, where several locations continue to operate below network benchmarks.   
-**View the dashboard** [here]()
+**View the dashboard** [here](https://public.tableau.com/app/profile/ayeshazubair/viz/PerformanceMarginGrowthAnalysisPhilea/performancedashboard)
 
 ## Dashboard Overview & Key Findings
 <img src="docs/images/01_performance_dashboard.png" width="700" alt="Vertical bar chart showing financial loss from shrinkage">
@@ -70,7 +70,7 @@ Tableau Dashboard
 ```
 Detailed documentation [here](data_catalog.md)
 
-## ⚠️ Limitations & Assumptions
+## Limitations & Assumptions
 * The dataset contains complete data for 2023 and 2024, while 2025 includes transactions through March only.
 * Currency values were standardized to USD using approximate exchange rates during preprocessing; minor variances may exist relative to historical market rates.
 * Duplicate transaction lines identified through invoice, customer, product, and line combinations were treated as data quality issues and removed.
@@ -88,7 +88,7 @@ Philea/
 └── data_catalog.md
 ```
 ### 📬 Feel Free to Connect
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayeshazubair.contact@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayeshazubair-az/) [![Portfolio](https://img.shields.io/badge/Portfolio-709fa5?style=for-the-badge&logo=google-chrome&logoColor=white)](#) [![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/ayeshazubair/vizzes)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayeshazubair.contact@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayeshazubair-az/) [![Portfolio](https://img.shields.io/badge/Portfolio-709fa5?style=for-the-badge&logo=google-chrome&logoColor=white)](http://127.0.0.1:5501/projects/profitability-growth-analysis.html) [![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/ayeshazubair/viz/PerformanceMarginGrowthAnalysisPhilea/performancedashboard)
 
 ### 📄 License
 This project is licensed under the MIT License. See the [License](License.txt) file for details.
