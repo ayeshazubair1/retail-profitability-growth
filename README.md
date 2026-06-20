@@ -1,4 +1,4 @@
-# Philea — Business Performance, Margin & Growth Analysis
+# Business Performance, Margin & Growth Analysis – Philea 
 
 ## Business Context
 Philea is a multinational fashion retailer operating across 35 stores in 7 countries, offering products across Feminine, Masculine, and Children's categories. Despite strong revenue growth, leadership requires greater visibility into profitability performance, margin pressure, and future growth opportunities across markets and stores.
@@ -12,12 +12,12 @@ Philea is a multinational fashion retailer operating across 35 stores in 7 count
 
 These questions are addressed through three interconnected dashboards covering business performance, margin diagnostics, and growth potential.
 
-## Executive Summary
+## 🎯 Executive Summary
 Philea generated **\$283M in Net Revenue** and **$161M in Gross Profit**, achieving a **57% profit margin** and **13% year-over-year growth** across its global retail network.
 
 While overall profitability remains strong, the analysis identified significant margin pressure from discounting and production costs. **Discount activity alone reduced revenue by $78M**, with margin erosion concentrated in specific product categories and subcategories.
 
-Growth analysis highlighted **Children's as the fastest-growing category** and identified **$3M in profit improvement opportunity** across underperforming stores. The largest store-level profit improvement opportunities is concentrated in the United Kingdom, Germany, and France, where several locations continue to operate below network benchmarks.
+Growth analysis highlighted **Children's as the fastest-growing category** and identified **$3M in profit improvement opportunity** across underperforming stores. The largest store-level profit improvement opportunities is concentrated in the United Kingdom, Germany, and France, where several locations continue to operate below network benchmarks.   
 **View the dashboard** [here]()
 
 ## Dashboard Overview & Key Findings
@@ -58,9 +58,9 @@ Provide a high-level view of revenue, profitability, and store performance acros
 - \$3M in profit improvement opportunity was identified across underperforming stores, with the largest opportunities concentrated in the United Kingdom.
 - Seasonal demand consistently peaked during March, September, and December.
 ---
-## Tech Stack & Data Architecture
-**Tools:** Tableau • PostgreSQL • DBeaver
-**Architecture:** Raw → Clean
+## 🛠️ Tech Stack & Data Architecture
+**Tools:** Tableau • PostgreSQL • DBeaver   
+**Architecture:** Raw → Clean → Dashboard
 ```text
 Raw Tables
    ↓
@@ -70,13 +70,13 @@ Tableau Dashboard
 ```
 Detailed documentation [here](data_catalog.md)
 
-## Limitations & Assumptions
+## ⚠️ Limitations & Assumptions
 * The dataset contains complete data for 2023 and 2024, while 2025 includes transactions through March only.
 * Currency values were standardized to USD using approximate exchange rates during preprocessing; minor variances may exist relative to historical market rates.
 * Duplicate transaction lines identified through invoice, customer, product, and line combinations were treated as data quality issues and removed.
 * The dataset is synthetic and serves as a representative retail business scenario for analysis.
 
-## Project Structure
+## 📁 Project Structure
 ```
 Philea/
 ├── data/
