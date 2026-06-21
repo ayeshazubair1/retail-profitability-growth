@@ -21,7 +21,7 @@ Growth analysis highlighted **Children's as the fastest-growing category** and i
 **View the dashboard** [here](https://public.tableau.com/app/profile/ayeshazubair/viz/PerformanceMarginGrowthAnalysisPhilea/performancedashboard)
 
 ## Dashboard Overview & Key Findings
-<img src="docs/images/01_performance_dashboard.png" width="700" alt="Vertical bar chart showing financial loss from shrinkage">
+<img src="docs/images/01_performance_dashboard.png" width="700" alt="Profitablity performance overview – Dashboard">
 <br>
 
 **Purpose:**
@@ -34,7 +34,7 @@ Provide a high-level view of revenue, profitability, and store performance acros
 - China achieved the highest profit margins across all categories (58%-61%), while the United Kingdom recorded the lowest margins (42%-46%).
 - Store segmentation identified 14 star performers and 6 underperforming stores, highlighting clear differences in revenue and profitability performance.
 ---
-<img src="docs/images/02_margin_dashboard.png" width="700" alt="Vertical bar chart showing financial loss from shrinkage">
+<img src="docs/images/02_margin_dashboard.png" width="700" alt="Margin erosion & cost pressure – Dashbaord">
 <br>
 
 **Purpose:** Identify the primary factors reducing profitability and quantify their impact on margin performance.
@@ -46,7 +46,7 @@ Provide a high-level view of revenue, profitability, and store performance acros
 - Despite healthy selling prices across subcategories, discounting and production costs significantly reduced realized profitability.
 - Discounting and production costs emerged as the largest drivers of margin erosion.
 ---
-<img src="docs/images/03_growth_dashboard.png" width="700" alt="Vertical bar chart showing financial loss from shrinkage">
+<img src="docs/images/03_growth_dashboard.png" width="700" alt="Growth opportunities & revenue upside – Dashboard">
 <br>
 
 **Purpose:** Identify the highest-value opportunities for future revenue and profitability growth.
