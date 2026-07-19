@@ -10,15 +10,14 @@ Philea is a multinational fashion retailer operating across 35 stores in 7 count
 2. What factors are reducing profitability?
 3. Where are the strongest growth opportunities?
 
-These questions are addressed through three interconnected dashboards covering business performance, margin diagnostics, and growth potential.
+These questions are addressed through three interconnected dashboards.
 
-## 🎯 Executive Summary
-Philea generated **\$283M in Net Revenue** and **$161M in Gross Profit**, achieving a **57% profit margin** and **13% year-over-year growth** across its global retail network.
+## Executive Summary
+Philea generated **\$283M in Net Revenue** and **$161M in Gross Profit**, achieving a **57% profit margin** and **13% year-over-year growth** across its global retail network.   
 
-While overall profitability remains strong, the analysis identified significant margin pressure from discounting and production costs. **Discount activity alone reduced revenue by $78M**, with margin erosion concentrated in specific product categories and subcategories.
+While overall profitability remains strong, the analysis identified significant margin pressure from discounting and production costs. **Discount activity alone reduced revenue by $78M**, with margin erosion concentrated in specific product categories and subcategories.   
 
-Growth analysis highlighted **Children's as the fastest-growing category** and identified **$3M in profit improvement opportunity** across underperforming stores. The largest store-level profit improvement opportunities is concentrated in the United Kingdom, Germany, and France, where several locations continue to operate below network benchmarks.   
-**View the dashboard** [here](https://public.tableau.com/app/profile/ayeshazubair/viz/PerformanceMarginGrowthAnalysisPhilea/performancedashboard)
+Growth analysis identified **Children's as the fastest-growing category** and uncovered approximately **$3M in profit improvement opportunities across underperforming stores.** These findings suggest that improving margin performance in a small number of locations and product categories will yield the strongest return.   
 
 ## Dashboard Overview & Key Findings
 <img src="docs/images/01_performance_dashboard.png" width="700" alt="Profitablity performance overview – Dashboard">
@@ -32,7 +31,10 @@ Provide a high-level view of revenue, profitability, and store performance acros
 - Revenue and gross profit peaked during December, confirming strong year-end seasonal demand.
 - Top-performing stores consistently achieved margins above 57%, with several exceeding 60%. 
 - China achieved the highest profit margins across all categories (58%-61%), while the United Kingdom recorded the lowest margins (42%-46%).
-- Store segmentation identified 14 star performers and 6 underperforming stores, highlighting clear differences in revenue and profitability performance.
+- Store segmentation identified 14 star performers and 6 underperforming stores, highlighting clear differences in revenue and profitability performance.   
+
+This suggests that improving performance in a small number of lower-margin markets could increase overall profitability without requiring additional revenue growth.
+
 ---
 <img src="docs/images/02_margin_dashboard.png" width="700" alt="Margin erosion & cost pressure – Dashbaord">
 <br>
@@ -45,6 +47,9 @@ Provide a high-level view of revenue, profitability, and store performance acros
 - Higher discount rates consistently aligned with lower profit margins throughout the year.
 - Despite healthy selling prices across subcategories, discounting and production costs significantly reduced realized profitability.
 - Discounting and production costs emerged as the largest drivers of margin erosion.
+
+Reducing discount dependency and controlling production costs represent the largest opportunities to improve margins without relying solely on revenue growth.
+
 ---
 <img src="docs/images/03_growth_dashboard.png" width="700" alt="Growth opportunities & revenue upside – Dashboard">
 <br>
@@ -57,38 +62,21 @@ Provide a high-level view of revenue, profitability, and store performance acros
 - Multiple subcategories delivered double-digit growth, led by Accessories (20%), Babies 0–12 Months (18%), and Sportswear (16%).
 - \$3M in profit improvement opportunity was identified across underperforming stores, with the largest opportunities concentrated in the United Kingdom.
 - Seasonal demand consistently peaked during March, September, and December.
+
+Prioritizing investment in high-growth categories and underperforming stores is likely to generate the strongest return on future growth initiatives.
+
 ---
-## 🛠️ Tech Stack & Data Architecture
-**Tools:** Tableau • PostgreSQL • DBeaver   
-**Architecture:** Raw → Clean → Dashboard
-```text
-Raw Tables
-   ↓
-Clean Layer (type casting, validation, standardization)
-   ↓
-Tableau Dashboard
-```
-Detailed documentation [here](data_catalog.md)
 
 ## Limitations & Assumptions
 * The dataset contains complete data for 2023 and 2024, while 2025 includes transactions through March only.
 * Currency values were standardized to USD using approximate exchange rates during preprocessing; minor variances may exist relative to historical market rates.
 * Duplicate transaction lines identified through invoice, customer, product, and line combinations were treated as data quality issues and removed.
-* The dataset is synthetic and serves as a representative retail business scenario for analysis.
 
-## 📁 Project Structure
-```
-Philea/
-├── data/
-├── docs/
-├── sql/
-├── dashboard.twb
-├── License.txt
-├── README.md
-└── data_catalog.md
-```
-### 📬 Feel Free to Connect
+---
+
+View Technical Documentation [here](technical_documentation.md)    
+View Dashboard [here](https://public.tableau.com/app/profile/ayeshazubair/viz/PerformanceMarginGrowthAnalysisPhilea/performancedashboard)
+
+<br>
+
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayeshazubair.contact@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayeshazubair-az/) [![Portfolio](https://img.shields.io/badge/Portfolio-709fa5?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ayeshazubair1.github.io/portfolio/projects/profitability-growth-analysis.html) [![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/ayeshazubair/viz/PerformanceMarginGrowthAnalysisPhilea/performancedashboard)
-
-### 📄 License
-This project is licensed under the MIT License. See the [License](License.txt) file for details.
