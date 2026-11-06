@@ -1,19 +1,19 @@
 > This document outlines the technical implementation of the project, from raw data ingestion and quality assessment to the final analytical model used for dashboard reporting.
 
 ## Dataset Overview
-A large-scale fictional fashion retail company operating across multiple countries and regions. It provides comprehensive transactional data capturing end-to-end retail operations, including customer orders, product sales, store performance, and multi-currency transactions.    
-Download Dataset [here](https://www.kaggle.com/datasets/ricgomes/global-fashion-retail-stores-dataset) 
-<br>
+The dataset represents a fictional global fashion retailer operating across multiple countries and regions. It provides comprehensive transactional data capturing end-to-end retail operations, including customer orders, product sales, store performance, and multi-currency transactions.    
 
-**Dataset Summary:**
+[Download Dataset](https://www.kaggle.com/datasets/ricgomes/global-fashion-retail-stores-dataset) 
+
+#### Dataset Summary:
 | Attribute             | Detail                                      |
 | --------------------- | ------------------------------------------- |
 | Date Range            | 2023-01-01 to 2025-03-18                    |
 | Transaction Records   | 6.4M+                                       |
 | Stores                | 35                                          |
 | Countries             | 7 (China, USA, Portugal, Spain, France, Germany, UK) |
-| Categories            | 3 (Masculine, Feminine, Children)           |
-| Sub Categories        | 21                                          |
+| Categories            | 3 (Masculine, Feminine, Children's)           |
+| Subcategories        | 21                                          |
 | Tables                | 6 relational tables                         |
 
 ### Tech Stack & Data Architecture
@@ -28,11 +28,14 @@ Tableau Dashboard
 ```
 <br>
 
-<img src="docs/philea_ERD.svg" width="700" alt="Vertical bar chart showing financial loss from shrinkage">
+<img src="docs/philea_ERD.svg" width="700" alt="Philea ERD">
+
+---
 
 ### Data Quality Assessment
 After loading the source files into the raw schema, data quality checks identified minor inconsistencies related to standardization, missing values, duplicate records, and multi-currency transactions. These issues were resolved through standardized SQL views before analysis and visualization.
 
+**Issues Identified and Resolved:**
 
 | Table        | Column                            | Issue                                           | Fix Applied                           |
 | ------------ | --------------------------------- | ----------------------------------------------- | ------------------------------------- |
@@ -53,9 +56,10 @@ After loading the source files into the raw schema, data quality checks identifi
 |              | discount                          | Inconsistent decimal precision                  | ROUND()                               |
 |              | transaction_id                    | Missing surrogate key                           | Generated using ROW_NUMBER()          |
 
----
+<br>
 
-**SQL Scripts:**  
-DDL [here](sql/ddl)    
-Database initialization [here](sql/db_init.sql)    
-Data Quality Checks [here](sql/test/raw_quality_checks.sql)   
+#### SQL Scripts
+
+- **DDL** [View scripts](sql/ddl)    
+- **Database Initialization** [View script](sql/db_init.sql)    
+- **Data Quality Checks** [View scripts](sql/test/raw_quality_checks.sql)   
