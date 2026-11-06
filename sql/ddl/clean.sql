@@ -1,9 +1,10 @@
 /*=======================================================================================
-LAYER: Clean / Standardized Views
+LAYER: Clean (Standardized Views)
 Schema: clean
 Purpose: 
 	- Creates transformed views, derived from the source tables in the 'raw' schema
-    - Resolves known data quality issues (formats, casing, NULL, duplicates)
+    - Resolves known data quality issues (format inconsistencies, casing, NULL values, 
+      and duplicate records)
 Usage:
 	- Run this script to create or refresh views showing cleaned data
     - Analysis-ready source for SQL queries and visualization

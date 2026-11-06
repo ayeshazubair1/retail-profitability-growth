@@ -1,11 +1,10 @@
 /*=======================================================================
-DATA QUALITY CHECKS
+LAYER: RAW (DATA QUALITY CHECKS)
 Schema: raw
 No. of tables: 6
 =========================================================================
 Purpose:
-    - Validates raw/source data for completeness, accuracy,
-      and consistency
+    - Validates raw/source data for completeness, accuracy, and consistency
     - Identifies nulls, duplicates, negative values, inconsistent
       formatting, and referential integrity issues
     - Detects standardization issues in strings, dates, and numeric fields
@@ -13,7 +12,7 @@ Purpose:
  
 Usage Notes:
     - Run prior to the clean/transformation steps
-    - Investigate, correct, and document any anomalies found
+    - Investigate, correct, and document any anomalies discovered
 =========================================================================*/
  
 -- ============================

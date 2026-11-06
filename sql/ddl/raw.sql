@@ -1,11 +1,11 @@
 /*=====================================================================================
-LAYER: Raw / Source (DATA INGESTION)
+LAYER: Raw (DATA INGESTION)
 Schema: raw
 Purpose: 
 		- Defines raw ingestion tables that mirror source files exactly
         - Preserves original structure, naming, and data types
 Usage:
-    	- Run this script to load unprocessed data before cleaning or transformation.
+    	- Run this script to create empty tables for loading unprocessed source data.
 =======================================================================================*/
 
 -- ============================
